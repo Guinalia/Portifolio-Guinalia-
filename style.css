@@ -1,74 +1,65 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo neutra */
 }
+
 header {
-    background: #333;
-    color: #fff;
+    background-color: #0033A0; /* Azul do Grêmio */
+    color: #FFFFFF; /* Branco para o texto */
     padding: 10px 0;
     text-align: center;
 }
-header nav ul {
+
+nav ul {
     list-style: none;
     padding: 0;
 }
-header nav ul li {
+
+nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 10px;
 }
-header nav ul li a {
-    color: #fff;
+
+nav ul li a {
+    color: #FFFFFF;
     text-decoration: none;
 }
-main {
-    padding: 20px;
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
+
 section {
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #FFFFFF; /* Branco para seções */
+    border-radius: 8px;
 }
+
 footer {
-    background: #333;
-    color: #fff;
+    background-color: #0033A0; /* Azul do Grêmio */
+    color: #FFFFFF; /* Branco para o texto */
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-/* Estilos básicos para o corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
 }
 
-/* Estilos para o botão */
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+article {
+    margin-bottom: 20px;
 }
 
-/* Estilos para o botão quando estiver em foco */
-button:focus {
-    outline: none;
+article h3 {
+    color: #0033A0; /* Azul do Grêmio */
 }
 
-/* Estilos para o parágrafo */
-p {
-    margin-top: 20px;
-    font-size: 18px;
+article a {
+    color: #0033A0; /* Azul do Grêmio */
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
 }
 
