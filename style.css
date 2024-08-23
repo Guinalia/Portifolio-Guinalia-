@@ -63,3 +63,15 @@ article a:hover {
     text-decoration: underline;
 }
 
+    color: #0033A0; /* Azul do Grêmio */
+}
+
+article a {
+    color: #0033A0; /* Azul do Grêmio */
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
