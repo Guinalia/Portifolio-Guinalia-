@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor Junior em início de carreira com experiência em HTML, CSS, JavaScript e Python.</p>
+        </section>
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <p>Aqui você encontrará uma lista dos projetos que desenvolvi.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode me contatar através do e-mail: Rogertheodor@hotmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Adiciona um botão e um parágrafo para mostrar a mensagem -->
+<button id="myButton">Clique em mim!</button>
+<p id="message"></p>
